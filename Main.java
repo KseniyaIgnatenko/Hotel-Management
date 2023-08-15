@@ -32,7 +32,6 @@ class Food implements Serializable
 }
 class Singleroom implements Serializable
 {
-    String name;
     String contact;
     String gender;   
     ArrayList<Food> food =new ArrayList<>();
@@ -89,7 +88,6 @@ class holder implements Serializable
 
 class Hotel
 {
-    static holder hotel_ob=new holder();
     static Scanner sc = new Scanner(System.in);
     static void CustDetails(int i,int rn)
     {
