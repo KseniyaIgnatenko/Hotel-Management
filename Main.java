@@ -89,7 +89,6 @@ class holder implements Serializable
 class Hotel
 {
     static Scanner sc = new Scanner(System.in);
-    static void CustDetails(int i,int rn)
     {
         String name, contact, gender;
         String name2 = null, contact2 = null; 
