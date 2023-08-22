@@ -98,7 +98,6 @@ class Hotel
         gender = sc.next();
         if(i<3)
         {
-        System.out.print("Enter second customer name: ");
         name2 = sc.next();
         System.out.print("Enter contact number: ");
         contact2=sc.next();
