@@ -1,8 +1,7 @@
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.Serializable;
-import java.util.ArrayList;
+import java.io.Serializable-FileOutputStream;
 import java.util.Scanner;
 
 class Food implements Serializable
