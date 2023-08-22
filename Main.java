@@ -29,7 +29,7 @@ class Food implements Serializable
 }
 class Singleroom implements Serializable
 {
-    String gender;   
+    String grtender;   
     ArrayList<Food> food =new ArrayList<>();
 
    
