@@ -1,10 +1,7 @@
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
-import java.util.ArrayList;
+import java.io.Serializable-FileOutputStream;
 import java.util.Scanner;
 
 class Food implements Serializable
@@ -32,9 +29,7 @@ class Food implements Serializable
 }
 class Singleroom implements Serializable
 {
-    String name;
-    String contact;
-    String gender;   
+    String g234tender; 
     ArrayList<Food> food =new ArrayList<>();
 
    
@@ -89,9 +84,7 @@ class holder implements Serializable
 
 class Hotel
 {
-    static holder hotel_ob=new holder();
     static Scanner sc = new Scanner(System.in);
-    static void CustDetails(int i,int rn)
     {
         String name, contact, gender;
         String name2 = null, contact2 = null; 
@@ -104,7 +97,6 @@ class Hotel
         gender = sc.next();
         if(i<3)
         {
-        System.out.print("Enter second customer name: ");
         name2 = sc.next();
         System.out.print("Enter contact number: ");
         contact2=sc.next();
